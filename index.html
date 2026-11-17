@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio web de Deivi García, coder en formación en Desarrollo de Software Full Stack."
+    />
+    <meta name="author" content="Deivi García" />
+    <title>Deivi García | Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-display: "Space Grotesk", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-neutral-950 font-display text-neutral-100">
+    <header class="border-b border-red-900 bg-neutral-950">
+      <div
+        class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+      >
+        <a
+          href="#inicio"
+          class="text-xl font-bold text-neutral-100 hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+          >Deivi <span class="text-red-500">García</span></a
+        >
+        <nav aria-label="Principal">
+          <ul
+            class="flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-neutral-300"
+          >
+            <li>
+              <a
+                href="#sobre-mi"
+                class="hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                >Sobre mí</a
+              >
+            </li>
+            <li>
+              <a
+                href="#habilidades"
+                class="hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                >Habilidades</a
+              >
+            </li>
+            <li>
+              <a
+                href="#proyectos"
+                class="hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                >Proyectos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#ruta"
+                class="hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                >Ruta y horario</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contacto"
+                class="hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" aria-labelledby="titulo-inicio">
+        <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-20">
+          <div class="grid gap-10 lg:grid-cols-12 lg:items-center">
+            <div class="border-l-4 border-red-600 pl-6 lg:col-span-7">
+              <p
+                class="text-sm font-semibold tracking-widest text-rose-400 uppercase"
+              >
+                Coder en formación · Desarrollo de Software Full Stack
+              </p>
+              <h1
+                id="titulo-inicio"
+                class="mt-3 text-5xl font-bold text-neutral-100 sm:text-6xl lg:text-7xl"
+              >
+                Deivi García
+              </h1>
+              <p class="mt-6 max-w-xl text-lg text-neutral-300">
+                Desarrollador Full Stack en formación apasionado por construir
+                soluciones web limpias, funcionales y escalables. Actualmente
+                estoy desarrollando proyectos web desde cero (como Rueda Libre)
+                mientras perfecciono mis bases de lógica, diseño responsivo y
+                desarrollo de software.
+              </p>
+              <div class="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="#proyectos"
+                  class="rounded-lg bg-red-600 px-6 py-3 font-semibold text-white shadow-md hover:bg-red-700 focus:ring-4 focus:ring-red-300 focus:outline-hidden"
+                  >Ver proyectos</a
+                >
+                <a
+                  href="#contacto"
+                  class="rounded-lg border-2 border-red-500 px-6 py-3 font-semibold text-red-500 hover:bg-neutral-900 focus:ring-4 focus:ring-red-300 focus:outline-hidden"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+            <div class="lg:col-span-5">
+              <div
+                class="rounded-xl border border-neutral-800 bg-neutral-900 p-3 shadow-lg lg:mt-10 lg:ml-8"
+              >
+                <img
+                  src="./img/perfil-deivi.jpeg"
+                  alt="Foto de perfil de Deivi García"
+                  class="aspect-square w-full rounded-lg object-cover"
+                />
+              </div>
+            </div>
+          </div>
+          <ul class="mt-12 flex flex-wrap gap-2" aria-label="Tecnologías">
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              HTML5
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              CSS3
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              JavaScript
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              Bootstrap
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              Tailwind CSS
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              Node.js
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              Git y GitHub
+            </li>
+            <li
+              class="rounded-full border border-neutral-800 bg-neutral-900 px-4 py-1.5 text-sm font-semibold text-rose-400"
+            >
+              PSeInt
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        id="sobre-mi"
+        aria-labelledby="titulo-sobre-mi"
+        class="border-t border-neutral-800"
+      >
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <p class="text-sm font-semibold tracking-widest text-rose-400 uppercase">
+            Sobre mí
+          </p>
+          <h2
+            id="titulo-sobre-mi"
+            class="mt-2 text-3xl font-bold text-neutral-100 sm:text-4xl"
+          >
+            Construir, iterar y escalar
+          </h2>
+          <div class="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <article
+              class="rounded-xl border border-neutral-800 bg-neutral-900 p-6 md:col-span-2"
+            >
+              <p class="text-xl font-semibold text-neutral-100">
+                ¡Hola! Soy Deivi García, desarrollador en formación en
+                Medellín. Actualmente estoy inmerso en el mundo del desarrollo
+                web, transformando ideas en interfaces modernas y aplicaciones
+                reales mientras construyo las bases técnicas para convertirme en
+                Arquitecto de Software.
+              </p>
+            </article>
+            <article
+              class="rounded-xl border border-neutral-800 bg-neutral-900 p-6"
+            >
+              <p class="text-neutral-300">
+                Soy Deivi García, un apasionado por la tecnología y la
+                resolución estructurada de problemas radicado en Medellín. Mi
+                camino en el código comenzó con una formación inicial de seis
+                meses en el SENA, donde descubrí cómo la lógica de programación
+                permite crear herramientas útiles desde cero. Impulsado por esa
+                curiosidad y con una mentalidad disciplinada de mejora continua,
+                decidí dar el salto profesional e ingresar a Riwi para
+                dedicarme de lleno al desarrollo de software.
+              </p>
+            </article>
+            <article
+              class="rounded-xl border border-neutral-800 bg-neutral-900 p-6"
+            >
+              <p class="text-neutral-300">
+                Hoy, como Coder en Riwi, estoy consolidando mis habilidades en
+                el ecosistema web con HTML, CSS, JavaScript, Bootstrap,
+                Tailwind CSS y Node.js, aplicando buenas prácticas de control
+                de versiones con Git y trabajo colaborativo en equipo. Mi meta a
+                largo plazo es convertirme en Arquitecto de Software, por lo
+                que cada proyecto que construyo hoy está enfocado en entender no
+                solo cómo hacer que el código funcione y se vea bien, sino cómo
+                diseñarlo para que sea limpio, escalable y de alto impacto.
+              </p>
+            </article>
+            <aside
+              class="rounded-xl border-l-4 border-red-600 bg-neutral-900 p-6 md:col-span-2 lg:col-span-1 lg:col-start-3 lg:row-span-2 lg:row-start-1"
+            >
+              <h3 class="text-xl font-bold text-neutral-100">Datos rápidos</h3>
+              <dl class="mt-4 space-y-4">
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">Ciudad</dt>
+                  <dd class="text-neutral-100">Medellín</dd>
+                </div>
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">
+                    Formación previa
+                  </dt>
+                  <dd class="text-neutral-100">SENA (6 meses)</dd>
+                </div>
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">
+                    Actualmente
+                  </dt>
+                  <dd class="text-neutral-100">Coder en Riwi</dd>
+                </div>
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">Objetivo</dt>
+                  <dd class="text-neutral-100">Arquitecto de Software</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="habilidades"
+        aria-labelledby="titulo-habilidades"
+        class="border-t border-neutral-800"
+      >
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <p class="text-sm font-semibold tracking-widest text-rose-400 uppercase">
+            Habilidades
+          </p>
+          <h2
+            id="titulo-habilidades"
+            class="mt-2 text-3xl font-bold text-neutral-100 sm:text-4xl"
+          >
+            Tecnologías con las que trabajo
+          </h2>
+          <div
+            class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"
+          >
+            <article
+              class="rounded-xl border-t-2 border-red-600 bg-neutral-900 p-6 shadow-lg"
+            >
+              <h3 class="text-xl font-bold text-neutral-100">Maquetación</h3>
+              <ul class="mt-4 space-y-2 text-neutral-300">
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+            </article>
+            <article
+              class="rounded-xl border-t-2 border-red-600 bg-neutral-900 p-6 shadow-lg"
+            >
+              <h3 class="text-xl font-bold text-neutral-100">
+                Estilos y frameworks
+              </h3>
+              <ul class="mt-4 space-y-2 text-neutral-300">
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </article>
+            <article
+              class="rounded-xl border-t-2 border-red-600 bg-neutral-900 p-6 shadow-lg"
+            >
+              <h3 class="text-xl font-bold text-neutral-100">
+                Lógica y programación
+              </h3>
+              <ul class="mt-4 space-y-2 text-neutral-300">
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>PSeInt</li>
+              </ul>
+            </article>
+            <article
+              class="rounded-xl border-t-2 border-red-600 bg-neutral-900 p-6 shadow-lg"
+            >
+              <h3 class="text-xl font-bold text-neutral-100">
+                Control de versiones
+              </h3>
+              <ul class="mt-4 space-y-2 text-neutral-300">
+                <li>Git y GitHub</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="proyectos"
+        aria-labelledby="titulo-proyectos"
+        class="border-t border-neutral-800"
+      >
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <p class="text-sm font-semibold tracking-widest text-rose-400 uppercase">
+            Proyectos
+          </p>
+          <h2
+            id="titulo-proyectos"
+            class="mt-2 text-3xl font-bold text-neutral-100 sm:text-4xl"
+          >
+            Lo que he construido
+          </h2>
+          <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <article
+              class="flex flex-col overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 shadow-lg hover:border-red-600"
+            >
+              <img
+                src="./img/rueda-lbre.jpeg"
+                alt="Captura del proyecto Rueda Libre"
+                loading="lazy"
+                class="h-48 w-full object-cover"
+              />
+              <div class="flex flex-1 flex-col justify-between p-6">
+                <div>
+                  <h3 class="text-xl font-bold text-neutral-100">Rueda Libre</h3>
+                  <p class="mt-2 text-neutral-300">
+                    Plataforma web responsive de alquiler de bicicletas en
+                    Medellín (HTML5, CSS3, Bootstrap).
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/Deivilegend/rueda-libre"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver repositorio de Rueda Libre"
+                  class="mt-6 self-start rounded-lg bg-red-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-red-700 focus:ring-4 focus:ring-red-300 focus:outline-hidden"
+                  >Ver repositorio</a
+                >
+              </div>
+            </article>
+            <article
+              class="flex flex-col overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 shadow-lg hover:border-red-600"
+            >
+              <img
+                src="./img/portafolio.jpeg"
+                alt="Captura del proyecto Portafolio Personal"
+                loading="lazy"
+                class="h-48 w-full object-cover"
+              />
+              <div class="flex flex-1 flex-col justify-between p-6">
+                <div>
+                  <h3 class="text-xl font-bold text-neutral-100">
+                    Portafolio Personal
+                  </h3>
+                  <p class="mt-2 text-neutral-300">
+                    Sitio web responsive construido desde cero con HTML5 y
+                    Tailwind CSS.
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/Deivilegend/portafolio-deivi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver repositorio de Portafolio Personal"
+                  class="mt-6 self-start rounded-lg bg-red-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-red-700 focus:ring-4 focus:ring-red-300 focus:outline-hidden"
+                  >Ver repositorio</a
+                >
+              </div>
+            </article>
+            <article
+              class="flex flex-col overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 shadow-lg hover:border-red-600 md:col-span-2 lg:col-span-1"
+            >
+              <img
+                src="./img/algoritmia.jpeg"
+                alt="Captura del Proyecto de Lógica y Algoritmos"
+                loading="lazy"
+                class="h-48 w-full object-cover"
+              />
+              <div class="flex flex-1 flex-col justify-between p-6">
+                <div>
+                  <h3 class="text-xl font-bold text-neutral-100">
+                    Proyecto de Lógica y Algoritmos
+                  </h3>
+                  <p class="mt-2 text-neutral-300">
+                    Soluciones estructuradas y algoritmos desarrollados en
+                    PSeInt y JavaScript.
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/Deivilegend/Inteligencia-Artificial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver repositorio del Proyecto de Lógica y Algoritmos"
+                  class="mt-6 self-start rounded-lg bg-red-600 px-5 py-2.5 font-semibold text-white shadow-md hover:bg-red-700 focus:ring-4 focus:ring-red-300 focus:outline-hidden"
+                  >Ver repositorio</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="ruta"
+        aria-labelledby="titulo-ruta"
+        class="border-t border-neutral-800"
+      >
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <p class="text-sm font-semibold tracking-widest text-rose-400 uppercase">
+            Ruta y horario
+          </p>
+          <h2
+            id="titulo-ruta"
+            class="mt-2 text-3xl font-bold text-neutral-100 sm:text-4xl"
+          >
+            De dónde vengo y hacia dónde voy
+          </h2>
+          <div class="mt-10 grid gap-10 lg:grid-cols-2">
+            <div>
+              <h3 class="text-xl font-bold text-neutral-100">Evolución</h3>
+              <ol class="mt-6 space-y-8 border-l-2 border-red-600">
+                <li class="relative pl-8">
+                  <span
+                    aria-hidden="true"
+                    class="absolute top-1 -left-2 size-4 rounded-full border-2 border-red-600 bg-neutral-950"
+                  ></span>
+                  <span
+                    aria-hidden="true"
+                    class="text-sm font-semibold text-rose-400"
+                    >01</span
+                  >
+                  <p class="text-lg font-semibold text-neutral-100">
+                    Formación inicial en el SENA (6 meses)
+                  </p>
+                </li>
+                <li class="relative pl-8">
+                  <span
+                    aria-hidden="true"
+                    class="absolute top-1 -left-2 size-4 rounded-full border-2 border-red-600 bg-neutral-950"
+                  ></span>
+                  <span
+                    aria-hidden="true"
+                    class="text-sm font-semibold text-rose-400"
+                    >02</span
+                  >
+                  <p class="text-lg font-semibold text-neutral-100">
+                    Coder en Riwi
+                  </p>
+                </li>
+                <li class="relative pl-8">
+                  <span
+                    aria-hidden="true"
+                    class="absolute top-1 -left-2 size-4 rounded-full border-2 border-red-600 bg-neutral-950"
+                  ></span>
+                  <span
+                    aria-hidden="true"
+                    class="text-sm font-semibold text-rose-400"
+                    >03</span
+                  >
+                  <p class="text-lg font-semibold text-neutral-100">
+                    Desarrollo Full Stack
+                  </p>
+                </li>
+                <li class="relative pl-8">
+                  <span
+                    aria-hidden="true"
+                    class="absolute top-1 -left-2 size-4 rounded-full border-2 border-red-600 bg-red-600"
+                  ></span>
+                  <span
+                    aria-hidden="true"
+                    class="text-sm font-semibold text-rose-400"
+                    >04</span
+                  >
+                  <p class="text-lg font-semibold text-neutral-100">
+                    Meta: Arquitecto de Software
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-neutral-100">
+                Horario semanal
+              </h3>
+              <div
+                class="mt-6 overflow-x-auto rounded-xl border border-neutral-800"
+              >
+                <table class="w-full min-w-96 text-left text-sm">
+                  <caption class="sr-only">
+                    Horario semanal de lunes a viernes
+                  </caption>
+                  <thead class="bg-neutral-900 text-neutral-100">
+                    <tr>
+                      <th scope="col" class="px-4 py-3 font-semibold">Día</th>
+                      <th scope="col" class="px-4 py-3 font-semibold">
+                        6:00 a. m. a 2:00 p. m.
+                      </th>
+                      <th scope="col" class="px-4 py-3 font-semibold">Tarde</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-neutral-300">
+                    <tr class="border-t border-neutral-800">
+                      <th scope="row" class="px-4 py-3 font-semibold text-neutral-100">
+                        Lunes
+                      </th>
+                      <td class="px-4 py-3">Riwi</td>
+                      <td class="px-4 py-3">
+                        Estudio autónomo y práctica de código
+                      </td>
+                    </tr>
+                    <tr class="border-t border-neutral-800">
+                      <th scope="row" class="px-4 py-3 font-semibold text-neutral-100">
+                        Martes
+                      </th>
+                      <td class="px-4 py-3">Riwi</td>
+                      <td class="px-4 py-3">
+                        Estudio autónomo y práctica de código
+                      </td>
+                    </tr>
+                    <tr class="border-t border-neutral-800">
+                      <th scope="row" class="px-4 py-3 font-semibold text-neutral-100">
+                        Miércoles
+                      </th>
+                      <td class="px-4 py-3">Riwi</td>
+                      <td class="px-4 py-3">
+                        Estudio autónomo y práctica de código
+                      </td>
+                    </tr>
+                    <tr class="border-t border-neutral-800">
+                      <th scope="row" class="px-4 py-3 font-semibold text-neutral-100">
+                        Jueves
+                      </th>
+                      <td class="px-4 py-3">Riwi</td>
+                      <td class="px-4 py-3">
+                        Estudio autónomo y práctica de código
+                      </td>
+                    </tr>
+                    <tr class="border-t border-neutral-800">
+                      <th scope="row" class="px-4 py-3 font-semibold text-neutral-100">
+                        Viernes
+                      </th>
+                      <td class="px-4 py-3">Riwi</td>
+                      <td class="px-4 py-3">
+                        Estudio autónomo y práctica de código
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contacto"
+        aria-labelledby="titulo-contacto"
+        class="border-t border-neutral-800"
+      >
+        <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <p class="text-sm font-semibold tracking-widest text-rose-400 uppercase">
+            Contacto
+          </p>
+          <h2
+            id="titulo-contacto"
+            class="mt-2 text-3xl font-bold text-neutral-100 sm:text-4xl"
+          >
+            Hablemos
+          </h2>
+          <div class="mt-10 grid gap-10 lg:grid-cols-5">
+            <form
+              action="#contacto"
+              method="get"
+              aria-labelledby="titulo-formulario"
+              class="border-t-4 border-red-600 pt-6 lg:col-span-3"
+            >
+              <h3
+                id="titulo-formulario"
+                class="text-xl font-bold text-neutral-100"
+              >
+                Escríbeme un mensaje
+              </h3>
+              <p class="mt-1 text-sm text-neutral-300">
+                Todos los campos son obligatorios.
+              </p>
+              <div class="mt-6 grid gap-6 sm:grid-cols-2">
+                <div>
+                  <label
+                    for="nombre"
+                    class="block text-xs font-bold tracking-widest text-rose-400 uppercase"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    required
+                    minlength="2"
+                    autocomplete="name"
+                    class="mt-2 w-full border-b-2 border-neutral-700 bg-transparent px-0 py-2 text-lg text-neutral-100 focus:border-red-500 focus:bg-neutral-900 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="correo"
+                    class="block text-xs font-bold tracking-widest text-rose-400 uppercase"
+                    >Correo</label
+                  >
+                  <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    required
+                    autocomplete="email"
+                    class="mt-2 w-full border-b-2 border-neutral-700 bg-transparent px-0 py-2 text-lg text-neutral-100 focus:border-red-500 focus:bg-neutral-900 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                  />
+                </div>
+                <div class="sm:col-span-2">
+                  <label
+                    for="mensaje"
+                    class="block text-xs font-bold tracking-widest text-rose-400 uppercase"
+                    >Mensaje</label
+                  >
+                  <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="4"
+                    required
+                    minlength="10"
+                    class="mt-2 w-full border-b-2 border-neutral-700 bg-transparent px-0 py-2 text-lg text-neutral-100 focus:border-red-500 focus:bg-neutral-900 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                  ></textarea>
+                </div>
+              </div>
+              <div
+                class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+              >
+                <p class="text-sm text-neutral-300">
+                  Formulario de mera decoración, no envía mensajes (aún)
+                </p>
+                <button
+                  type="submit"
+                  class="bg-red-600 px-8 py-3 font-semibold text-white hover:bg-red-700 focus:ring-4 focus:ring-red-300 focus:outline-hidden"
+                >
+                  Enviar mensaje
+                </button>
+              </div>
+            </form>
+            <div
+              class="self-start rounded-xl border-l-4 border-red-600 bg-neutral-900 p-6 lg:col-span-2"
+            >
+              <h3 class="text-xl font-bold text-neutral-100">
+                Contacto directo
+              </h3>
+              <dl class="mt-4 space-y-4">
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">GitHub</dt>
+                  <dd>
+                    <a
+                      href="https://github.com/Deivilegend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-neutral-100 hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                      >github.com/Deivilegend</a
+                    >
+                  </dd>
+                </div>
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">Correo</dt>
+                  <dd>
+                    <a
+                      href="mailto:deivigarcia034@gmail.com"
+                      class="text-neutral-100 hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+                      >deivigarcia034@gmail.com</a
+                    >
+                  </dd>
+                </div>
+                <div>
+                  <dt class="text-sm font-semibold text-rose-400">Ciudad</dt>
+                  <dd class="text-neutral-100">Medellín</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-red-900">
+      <div
+        class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-neutral-300 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+      >
+        <p>&copy; 2026 Deivi García</p>
+        <a
+          href="#inicio"
+          class="hover:text-red-500 focus:ring-2 focus:ring-red-500 focus:outline-hidden"
+          >Volver al inicio</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
